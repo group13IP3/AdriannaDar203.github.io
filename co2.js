@@ -289,14 +289,14 @@ $.ajax({
 
 
 function getColour(value) {
-    return value > 18 ? '#000066' :
-        value > 15 ? '#3333ff' :
-            value > 12 ? '#8080ff' :
-                value > 9 ? '#b3b3ff' :
-                    value > 6 ? '#ccccff' :
-                        value > 3 ? '#e6e6ff' :
-                            value > 1 ? '#ffffff' :
-                                '#FFEDA0';
+    return value > 18 ? '#000033' :
+        value > 15 ? '#000099' :
+            value > 12 ? '#0000cc' :
+                value > 9 ? '#0000ff' :
+                    value > 6 ? '#4d4dff' :
+                        value > 3 ? '#8080ff' :
+                            value > 1 ? '#e6e6ff' :
+                                '#ffffff';
 }
 
 
@@ -412,14 +412,14 @@ $(document).ajaxStop(function () {
         projection: 'mercator',
         // countries not listed in dataset will be painted with this color
         fills: {
-            '> 18': '#800026',
-            ' > 15': '#BD0026',
-            ' > 12 ': '#E31A1C',
-            ' > 9': '#0000e6',
-            ' > 6': '#FD8D3C',
-            ' > 3': '#FEB24C',
-            ' > 1': "#FED976",
-            defaultFill: '#F5F5F5'
+            '> 18': '#000033',
+            ' > 15': '#000099',
+            ' > 12 ': '#0000cc',
+            ' > 9': '#0000ff',
+            ' > 6': '#4d4dff',
+            ' > 3': '#8080ff',
+            ' > 1': "#e6e6ff",
+            defaultFill: '#ffffff'
         },
         data: dataset2001,
         geographyConfig: {
