@@ -8,7 +8,7 @@ h1 {
 .ui-tabs
 .ui-tabs-nav li
 .ui-tabs-active a {
-    color: red;
+    color: #ff6666;
 }
 
 body{
