@@ -289,13 +289,13 @@ $.ajax({
 
 
 function getColour(value) {
-    return value > 18 ? '#800026' :
-        value > 15 ? '#BD0026' :
-            value > 12 ? '#E31A1C' :
-                value > 9 ? '#FC4E2A' :
-                    value > 6 ? '#FD8D3C' :
-                        value > 3 ? '#FEB24C' :
-                            value > 1 ? '#FED976' :
+    return value > 18 ? '#000066' :
+        value > 15 ? '#3333ff' :
+            value > 12 ? '#8080ff' :
+                value > 9 ? '#b3b3ff' :
+                    value > 6 ? '#ccccff' :
+                        value > 3 ? '#e6e6ff' :
+                            value > 1 ? '#ffffff' :
                                 '#FFEDA0';
 }
 
